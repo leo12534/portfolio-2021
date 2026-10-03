@@ -1,11 +1,8 @@
 /* Footer */
 
 .footer {
-
   background-color: var(--clr-bg-hero);
-  padding:10rem 0;
-
-
+  // padding:10rem 0;
 }
 .footer__content {
   text-align:center;
@@ -32,7 +29,7 @@
 
 }
 .footer__social-link {
-  color:var(--clr-secondary-turquoise);
+  color:var(--clr-accent-yellow);
 }
 //
 
@@ -73,7 +70,6 @@
   .footer__social-item {
     @include text-large();
   }
-
 }
 
 @include mediaquery-xl {

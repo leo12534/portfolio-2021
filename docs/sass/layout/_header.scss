@@ -74,13 +74,14 @@
 
 /* Text Shadow on hover transitions */
 .header__text-hover {
-  color: var(--clr-primary-pink);
-  text-shadow: -3px -2px 1px var(--clr-secondary-turquoise);
+  display:inline-block;
+  color: var(--clr-accent-yellow);
+  text-shadow: 1px 1rem 1px var(--clr-primary-pink);
   transition: var(--transition);
 
 }
 .header__text-hover:hover {
-  text-shadow: 3px 1px 0px var(--clr-secondary-turquoise);
+  text-shadow: 5px -5px 0 var(--clr-primary-pink);
 }
 
 
